@@ -1,0 +1,7 @@
+{
+    "headed": true,
+    "proxy": "http://localhost:8080",
+    "profile": "./browser-data",
+    "userAgent": "my-agent/1.0",
+    "ignoreHttpsErrors": true
+}
