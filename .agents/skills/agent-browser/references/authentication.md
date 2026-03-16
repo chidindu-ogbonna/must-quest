@@ -102,12 +102,12 @@ Use `--session-name` to auto-save and restore cookies + localStorage by name, wi
 
 ```bash
 # Auto-saves state on close, auto-restores on next launch
-agent-browser --session-name twitter open https://twitter.com
+agent-browser --session-name myapp open https://app.example.com/login
 # ... login flow ...
 agent-browser close  # state saved to ~/.agent-browser/sessions/
 
 # Next time: state is automatically restored
-agent-browser --session-name twitter open https://twitter.com
+agent-browser --session-name myapp open https://app.example.com/dashboard
 ```
 
 Encrypt state at rest:
