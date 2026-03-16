@@ -1,0 +1,33 @@
+---
+description: 
+alwaysApply: true
+---
+
+# Outbound Agent Cursor Rules
+
+## Project Context
+
+This is an **AI Outbound Seller Agent** designed for Siena AI. It specializes in researching DTC brands and drafting personalized emails.
+
+## Technical Standards
+
+- **Grounded Truth**: Use `docs/business-context.md` for all branding, ICP, and value proposition logic.
+- **Signal Extraction**: Before drafting any email, search for company-specific signals (Revenue, Social, News, Job Postings).
+- **Tool Usage**: Use `agent-browser` for live research on LinkedIn and Trustpilot.
+
+## Workflow Rules
+
+1. **Research First**: Never draft an email without a corresponding `*_signals.txt` file.
+2. **Personalization**: Emails must be at least 70% unique to the specific recipient/company context.
+3. **Drafting**: Use `open_gmail_tabs.py` pattern for browser-based automation instead of direct SMTP sending.
+
+## Security
+
+- Never commit `.env` files.
+- Ensure all API keys are referenced via environment variables.
+
+## File Structure
+
+- `/outbound-emails`: Final drafts.
+- `/*_signals.txt`: Raw research findings.
+- `docs/`: Strategic grounding documents.

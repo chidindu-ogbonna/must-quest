@@ -116,8 +116,10 @@ Always follow this sequence:
    - Use a calm, senior, respectful tone. Avoid hype and buzzwords.
 
 7. **Summarize results for each company and write files**
-   - In addition to your on-screen summary, you MUST generate one file per company in the `/outbound-emails` folder.
-   - If the `/outbound-emails` folder does not exist, create it before writing any files.
+   - In addition to your on-screen summary, you MUST generate one file per company in the `/outbound-emails` folder **if it already exists**.
+   - **Never create new folders yourself.** If the `/outbound-emails` folder (or any parent folder) does not exist, do not create it; instead:
+     - Fall back to providing all content on-screen in the chat response.
+     - Clearly mention that `/outbound-emails` does not exist so the user can create it manually.
    - Name each file using a clear, non-Markdown text format such as: `<company-name>-<buyer-last-name>-outbound.txt`.
    - Each file should contain, in order:
      - Buyer summary (name, role, company, profile URL if available)
