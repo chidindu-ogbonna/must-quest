@@ -76,35 +76,12 @@ Focus area to sell: AI agent for CX / support teams (deflection + automation)
 Constraints: DTC / ecommerce brands in the US
 ```
 
-**What “triggers” it**
-
-* Mention `cold-outbound-seller` in your message (so Cursor loads that agent’s instructions).
-* Provide at least:
-  * Customer tier
-  * Product feature / focus area to sell
-
-### 1. Generate Research & Signals
-
-Run the agent with a list of target companies. It will navigate to their sites and generate a report like:
-`olipop_signals.txt` -> *Identifies scaling pressure and CX philosophy.*
-
-### 2. Draft & Open Outbound
-
-Once signals are confirmed, run the automation script:
-
-```bash
-python3 open_gmail_tabs.py
-```
-
-*Result: 5 browser tabs open in Gmail, each with a unique, high-context draft ready to send.*
-
 ---
 
 ## ⚙️ Setup & Configuration
 
-1. **Clone & Install**: `npm install`
-2. **Security**: Copy `.env.example` to `.env` and add your credentials.
-3. **Cursor-Ready**: This project includes `.cursorrules` to ensure AI instructions are consistently followed.
+1. **Security**: Copy `.env.example` to `.env` and add your credentials.
+2. **Cursor-Ready**: This project includes `.cursorrules` to ensure AI instructions are consistently followed.
 
 ---
 *Built for the Quest: Defining the future of AI Agentic Selling.*
