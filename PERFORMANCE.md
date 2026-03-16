@@ -30,18 +30,18 @@ The score is calculated using the following weighted formula:
 
 #### 4. Signal Conversion (SC) - [Score: 9,200]
 
-* **Measurement**: "Mental Leap Quality." How well does the agent map a "Signal" (e.g., "Viral growth") to a Siena "Value Prop" (e.g., "Volatility handling").
+* **Measurement**: "Mental Leap Quality." How well does the agent map a "Signal" (e.g., "Viral growth") to a Cursor-Based "Value Prop" (e.g., "Volatility handling").
 * **Evidence**: For Feastables, the agent correctly identified "viral cycles" as the pain point rather than just "high volume."
 
 ---
 
 ## 5. Benchmark Comparison
 
-We compared the **Antigravity Outbound Agent** against the **Default Cursor Claude 3.5 Sonnet** experience.
+We compared the **Cursor-Based Outbound Agent** against the **Default Cursor Claude 3.5 Sonnet** experience.
 
 ### Side-by-Side Comparison
 
-| Capability | Default Cursor Claude | Antigravity Outbound Agent | Why This Wins |
+| Capability | Default Cursor Claude | Cursor-Based Outbound Agent | Why This Wins |
 | :--- | :--- | :--- | :--- |
 | **Autonomous Research** | ❌ None. Requires user to provide all context. | ✅ **Active**. Scrapes live sites via `agent-browser`. | Saves 20+ mins of manual research per lead. |
 | **Context Grounding** | ⚠️ General / Hallucination-prone. | ✅ **Hard-Grounded** in `business-context.md`. | Ensures 100% brand voice and ICP alignment. |
@@ -51,4 +51,4 @@ We compared the **Antigravity Outbound Agent** against the **Default Cursor Clau
 ### Test Case: The "Olipop" Challenge
 
 * **Cursor Claude**: When asked to "Write an email to Olipop," it produced a generic DTC message about "improving support."
-* **Outbound Agent**: Researched Eli Weiss, found his specific LinkedIn posts about "human-centricity," identified Olipop's $500M revenue trajectory, and framed the pitch as "Freeing up the team for community, not WISMO." The difference in conversion potential is estimated at **300%**.
+* **Cursor-Based Outbound Agent**: Researched Eli Weiss, found his specific LinkedIn posts about "human-centricity," identified Olipop's $500M revenue trajectory, and framed the pitch as "Freeing up the team for community, not WISMO." The difference in conversion potential is estimated at **300%**.
