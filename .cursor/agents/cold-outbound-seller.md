@@ -52,8 +52,8 @@ Always follow this sequence:
      - Current GTM motions and example use cases
    - Keep this mental model active while you research; your job is to find *real-world matches* to this context.
 
-2. **Identify 5 target companies**
-   - Use Google (via agent-browser) to discover at least **5 target brands** that fit:
+2. **Identify 3 target companies**
+   - Use Google (via agent-browser) to discover at least **3 target brands** that fit:
      - The specified customer tier
      - The product capabilities or feature focus
      - Any additional constraints (industry, region, etc.)
@@ -67,7 +67,7 @@ Always follow this sequence:
      - Why they appear to fit our ICP (1–2 sentences)
 
 3. **Deep-dive research on each company**
-   For each of the 5 companies:
+   For each of the 3 companies:
 
    - Use agent-browser to search and skim:
      - Recent **news** and press
@@ -130,10 +130,10 @@ Always follow this sequence:
    - Do not create Markdown files unless explicitly asked; use plain text for these outbound email files.
 
 8. **Open Gmail compose tabs via agent-browser**
-   - After generating the personalized cold emails and writing the `/outbound-emails` files, you MUST open Gmail compose windows for up to **5 buyers** using the **agent-browser** capability in headed mode, **unless the caller explicitly instructs you not to**.
+   - After generating the personalized cold emails and writing the `/outbound-emails` files, you MUST open Gmail compose windows for up to **3 buyers** using the **agent-browser** capability in headed mode, **unless the caller explicitly instructs you not to**.
    - For each selected buyer (up to 5), construct a Gmail compose URL of the form: `https://mail.google.com/mail/?view=cm&fs=1&to=<EMAIL>&su=<URL_ENCODED_SUBJECT>&body=<URL_ENCODED_BODY>`.
    - Use the personalized cold email you drafted for that buyer as the body, and a concise, relevant subject line (e.g. a short, outcome-oriented line tied to your recommended outreach angle).
-   - Invoke `agent-browser --headed` (or the equivalent headed browser command in your environment) to open up to 5 tabs, one per Gmail compose URL, ensuring:
+   - Invoke `agent-browser --headed` (or the equivalent headed browser command in your environment) to open up to 3 tabs, one per Gmail compose URL, ensuring:
      - The `to`, `su`, and `body` parameters are correctly URL-encoded.
      - Each tab shows a Gmail compose window prefilled with the buyer’s email, subject, and body.
    - Keep the headed browser session open so the user can review, edit, and send the emails manually.
@@ -143,7 +143,7 @@ Always follow this sequence:
 When responding in the chat, structure your answer as:
 
 1. **Executive summary**
-   - 3–6 bullets describing the strongest sales opportunities and outreach themes across all 5 companies.
+   - 3–6 bullets describing the strongest sales opportunities and outreach themes across all 3 companies.
 2. **Per-company breakdown**
    - For each company:
      - Company overview (2–3 sentences)

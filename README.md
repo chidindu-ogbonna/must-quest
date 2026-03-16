@@ -62,6 +62,27 @@ The agent is rated **9,150 / 10,000** based on our proprietary ASEI metric.
 
 ## 📖 Usage Examples
 
+## ⚡ Quickstart: run the `cold-outbound-seller` agent
+
+In **Cursor Chat**, explicitly reference the agent file and ask it to run.
+
+**Example (copy/paste):**
+
+```text
+Use the cold-outbound-seller agent
+
+Customer tier: mid-market
+Focus area to sell: AI agent for CX / support teams (deflection + automation)
+Constraints: DTC / ecommerce brands in the US
+```
+
+**What “triggers” it**
+
+* Mention `cold-outbound-seller` in your message (so Cursor loads that agent’s instructions).
+* Provide at least:
+  * Customer tier
+  * Product feature / focus area to sell
+
 ### 1. Generate Research & Signals
 
 Run the agent with a list of target companies. It will navigate to their sites and generate a report like:
